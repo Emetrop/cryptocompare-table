@@ -1,0 +1,17 @@
+.filter {
+    display: flex;
+    flex-flow: column;
+}
+
+.filter__list {
+    padding: 0 40px 0 0;
+}
+
+.filter__title {
+    margin: 0;
+}
+
+.filter__item {
+    list-style: none;
+    padding-bottom: 10px;
+}

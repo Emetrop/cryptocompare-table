@@ -1,0 +1,19 @@
+.table {
+    border-collapse: collapse;
+}
+.table__header {
+    width: 180px;
+    text-align: left;
+    border: 1px solid #dfe2e5;
+    padding: 6px 13px;
+}
+.table__row:nth-of-type(2n) {
+    background-color: #f6f8fa;
+}
+.table__row:hover {
+    background-color: #eaeaea;
+}
+.table__cell {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
